@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1340px;
+    margin: auto;
+}
+
+header {
+    background-image: url("../images/bali-for-digital-nomads\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* navbar */
+#navbar {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-navbar {
+    width: 50%;
+    font-family: "Poppins";
+    font-size: 30px;
+    display: flex;
+    color: white;
+}
+
+.link-navbar {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.link-navbar ul {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.link-navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.link-navbar li {
+    margin: 0 40px;
+}
+
+.button-signin {
+    border: solid 2px white;
+    border-radius: 5px;
+}
+
+.button-signin a {
+    padding: 10px;
+    
+}
+
+/* Hero */
+#hero {
+    margin: 100px 90px;
+    padding-bottom: 150px;
+}
+
+.title-hero {
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins";
+}
+
+.desc-hero {
+    color: white;
+    font-family: "Poppins";
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button-hero {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+}
+
+.button-hero a {
+    color: white;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 310px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -150px;
+    height: 97px;
+    background-color: white;
+    width: 704px;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+.bar-input input {
+    height: 56px;
+    margin-left: 30px;
+    width: 575px;
+    border: 1px solid black;
+    border-radius: 10px 0 0 10px;
+}
+
+.icon-search img {
+    margin-top: -6px;
+    background-color: #e6e6e6;
+    border-radius: 0 10px 10px 0;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 88px;
+    margin: 0 120px;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+}
+
+.desk-about {
+    margin-left: 50px;
+}
+
+.title-about {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    font-family: "Poppins";
+    font-size: 40px;
+}
+
+.title-about p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.card {
+    height: 60px;
+    width: 446px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+    border-radius: 5px;
+    margin: 10px 0;
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+
+}
+
+.icon-ceklis {
+    margin-left: 20px;
+}
+
+.card-ceklis {
+    margin-left: 20px;
+}
+
+.card-get {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+span {
+    color: rgb(250, 155, 155);
+}
+
+#favorite {
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Poppins";
+}
+
+.title-fav {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.place {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-place h6 {
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card-place {
+    width: 270px;
+    height: 288px;
+}
+
+.location {
+    margin-top: 10px;
+    display: flex;
+}
+
+#testimoni {
+    margin-top: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-family: "Poppins";
+    padding-bottom: 50px;
+}
+
+.title-testi {
+    text-align: center;
+    font-size: 40px;
+}
+
+.testi {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-testi {
+    width: 258px;
+    text-align: center;
+    background-color: #EEEDF0;
+    border-top: solid 20px #192C35;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgb(179, 179, 179);
+}
+
+
+.card-testi img {
+    margin: 20px 0;
+}
+
+.card-testi p {
+    margin: 0 27px;
+    margin-bottom: 20px;
+}
+
+.name {
+    text-align: right;
+        padding-bottom: 10px;
+        color: #2782ED;
+}
+
+.testi2 {
+    margin-top: 30px;
+}
+
+#service {
+    margin: 0 120px;
+    margin-top: 100px;
+    font-family: "Poppins";
+}
+
+.form-service {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.title-service {
+    font-size: 40px;
+    text-align: center;
+}
+
+iframe {
+    margin-left: 70px;
+    width: 350px;
+    height: 350px;
+}
+
+input {
+    border-radius: 5px;
+    width: 367px;
+    height: 34px;
+    margin-left: -80px;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+}
+
+textarea {
+    margin-left: -80px;
+    border: solid 1px black;
+    border-radius: 5px;
+    width: 367px;
+    font-family:  "Poppins";
+}
+
+hr {
+    margin-left: -80px;
+    rotate: 90deg;
+    width: 340px;
+    height: 3px;
+    background-color: black;
+}
+
+.form h6 {
+    font-size: 30px;
+    margin-left: -80px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #192C35;
+    color: white;
+    font-family: "Poppins";
+}
+
+#footer {
+    margin-top: 100px;
+    background-color: #192C35;
+}
+
+#footer h3 {
+    padding-top: 30px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 40px;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.twitter,
+.instagram,
+.facebook {
+    width: 80px;
+    height: 80px;
+}
